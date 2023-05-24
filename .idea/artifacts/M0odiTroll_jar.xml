@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="M0odiTroll:jar">
+    <output-path>$USER_HOME$/Тестовые сборки MineCraft/Paper/Paper 1.16.5/plugins</output-path>
+    <root id="archive" name="M0odiTroll.jar">
+      <element id="module-output" name="M0odiTroll" />
+    </root>
+  </artifact>
+</component>

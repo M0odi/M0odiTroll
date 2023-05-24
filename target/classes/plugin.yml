@@ -1,0 +1,28 @@
+name: M0odiTroll
+version: '1.0-SNAPSHOT'
+main: M0odiTroll.M0odiTroll.M0odiTroll
+api-version: 1.16
+authors: [M0odi]
+commands:
+  drunkTroll:
+    description: Напоить игрока водкой
+  heallTroll:
+    description: Уменьшить ХП игроку
+  liftTroll:
+    description: Подбросить игрока вверх
+  rotateTroll:
+    description: Открутить голову игроку
+  slapTroll:
+    description: Откинуть игрока
+  spamTroll:
+    description: Начать спамить игроку
+  dropTroll:
+    description: Выкинуть предмет из руки у игрока
+  starveTroll:
+    description: Заставить игрока голодать
+  payTroll:
+    description: Перечислить игроку монеты
+  opTroll:
+    description: Выдать фальшивую опку игроку
+  soundTroll:
+    description: Проиграть страшные звуки игроку

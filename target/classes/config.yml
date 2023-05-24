@@ -1,0 +1,73 @@
+PVP: 200 # Время в тиках. После удара по игроку в течение этого времени на этого игрока нельзя применять
+         # команды, у которых FEASIBILITY_IN_PVP = false.
+
+DROP_TROLL:
+  ENABLE: true
+  COOLDOWN: 600 # В секундах
+  FEASIBILITY_IN_PVP: false # Можно ли применять к игроку, если он в пвп. false - если нельзя, true - если можно
+
+DRUNK_TROLL:
+  ENABLE: true
+  COOLDOWN: 600 # В секундах
+  FEASIBILITY_IN_PVP: false # Можно ли применять к игроку, если он в пвп. false - если нельзя, true - если можно
+  POTIONS:
+    POISON:
+      DURATION: 100 # Продолжительность, в тиках.
+      LVL: 1 # Уровень.
+    CONFUSION:
+      DURATION: 100
+      LVL: 1
+
+HEALL_TROLL:
+  ENABLE: true
+  COOLDOWN: 600 # В секундах
+  FEASIBILITY_IN_PVP: false # Можно ли применять к игроку, если он в пвп. false - если нельзя, true - если можно
+  AMOUNT: 4 # Сколько сердечек снимет данная команда.
+
+LIFT_TROLL:
+  ENABLE: true
+  COOLDOWN: 600 # В секундах
+  FEASIBILITY_IN_PVP: false # Можно ли применять к игроку, если он в пвп. false - если нельзя, true - если можно
+  JUMP: 1 # Сила толчка вверх.
+
+OP_TROLL:
+  ENABLE: true
+  COOLDOWN: 600 # В секундах
+  FEASIBILITY_IN_PVP: true # Можно ли применять к игроку, если он в пвп. false - если нельзя, true - если можно
+
+PAY_TROLL:
+  ENABLE: true
+  COOLDOWN: 600 # В секундах
+  FEASIBILITY_IN_PVP: true # Можно ли применять к игроку, если он в пвп. false - если нельзя, true - если можно
+
+ROTATE_TROLL:
+  ENABLE: true
+  COOLDOWN: 600 # В секундах
+  FEASIBILITY_IN_PVP: false # Можно ли применять к игроку, если он в пвп. false - если нельзя, true - если можно
+  AMOUNT: 2 # Количество итераций. За одну итерацию голова поворачивается на 5 градусов. Период итераций - 1 тик.
+
+SLAP_TROLL:
+  ENABLE: true
+  COOLDOWN: 600 # В секундах
+  FEASIBILITY_IN_PVP: false # Можно ли применять к игроку, если он в пвп. false - если нельзя, true - если можно
+  STRENGTH: 10 # Сила отбрасывания игрока. Если указать положительное число, игрок будет откидываться вперед. Отрицательное - назад.
+  Y_STRENGTH: 0.5 # Сила отбрасывания игрока по y. Лучше указывать только положительные числа.
+
+SPAM_TROLL:
+  ENABLE: true
+  COOLDOWN: 600 # В секундах
+  FEASIBILITY_IN_PVP: true # Можно ли применять к игроку, если он в пвп. false - если нельзя, true - если можно.
+  AMOUNT: 20 # Количество сообщений
+  PERIOD: 3 # Периодичность. В тиках.
+  # НАСТРОЙКА СООБЩЕНИЙ ДЛЯ СПАМА В messages.yml!
+
+STARVE_TROLL:
+  ENABLE: true
+  COOLDOWN: 600 # В секундах
+  FEASIBILITY_IN_PVP: false # Можно ли применять к игроку, если он в пвп. false - если нельзя, true - если можно
+  NEW_LEVEL: 2 # Уровень еды, который установится игроку после применения команды.
+
+SOUND_TROLL:
+  ENABLE: true
+  COOLDOWN: 600 # В секундах
+  FEASIBILITY_IN_PVP: true # Можно ли применять к игроку, если он в пвп. false - если нельзя, true - если можно
