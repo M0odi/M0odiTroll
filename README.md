@@ -46,7 +46,7 @@ QIWI: 4890494762619799
 * M0odiTroll.SPAM
 * M0odiTroll.STARVE 
 
-  На кулдавны: 
+На кулдавны: 
 * M0odiTroll.COOLDOWN_BYPASS.DROP_TROLL
 * M0odiTroll.COOLDOWN_BYPASS.DRUNK_TROLL
 * M0odiTroll.COOLDOWN_BYPASS.HEALL_TROLL
@@ -60,5 +60,5 @@ QIWI: 4890494762619799
 * M0odiTroll.COOLDOWN_BYPASS.SOUND_TROLL
 * M0odiTroll.COOLDOWN_BYPASS.ALL - обход для всех команд
 
-  Другое:
+Другое:
 * M0odiTroll.PROTECT
