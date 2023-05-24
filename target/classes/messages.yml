@@ -78,6 +78,10 @@ USAGES:
     - " "
     - "  &7&l>> &7Использование: &c/soundTroll &7[&cНик Игрока&7]"
     - " "
+  BURN_TROLL_USAGE:
+    - " "
+    - "  &7&l>> &7Использование: &c/burnTroll &7[&cНик Игрока&7]"
+    - " "
 
 MESSAGES:
   #
@@ -228,4 +232,14 @@ MESSAGES:
     SOUND_SUCCESSFULLY_SENDER:
       - " "
       - "  &7&l>> &7Вы проиграли звук игроку &c%target%"
+      - " "
+  #
+  BURN_TROLL:
+    BURN_SUCCESSFULLY_SENDER:
+      - " "
+      - "  &7&l>> &7Вы подожгли игрока &c%target%"
+      - " "
+    BURN_SUCCESSFULLY_TARGET:
+      - " "
+      - "  &7&l>> &7Вас подожгли"
       - " "

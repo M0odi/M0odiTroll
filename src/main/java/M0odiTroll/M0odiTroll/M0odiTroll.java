@@ -42,6 +42,7 @@ public final class M0odiTroll extends JavaPlugin {
         new PayTroll();
         new OPTroll();
         new SoundTroll();
+        new BurnTroll();
 
         Bukkit.getLogger().info("");
         Bukkit.getLogger().info("§b███╗░░░███╗░█████╗░░█████╗░██████╗░██╗§c████████╗██████╗░░█████╗░██╗░░░░░██╗░░░░░");

@@ -30,6 +30,7 @@ public enum MessageStorage {
     PAY_TROLL_USAGE (M0odiTroll.getMessages().getConfig().getStringList("USAGES.PAY_TROLL_USAGE")),
     OP_TROLL_USAGE (M0odiTroll.getMessages().getConfig().getStringList("USAGES.OP_TROLL_USAGE")),
     SOUND_TROLL_USAGE (M0odiTroll.getMessages().getConfig().getStringList("USAGES.SOUND_TROLL_USAGE")),
+    BURN_TROLL_USAGE (M0odiTroll.getMessages().getConfig().getStringList("USAGES.BURN_TROLL_USAGE")),
 
     DRUNK_SUCCESSFULLY_SENDER (M0odiTroll.getMessages().getConfig().getStringList("MESSAGES.DRUNK_TROLL.DRUNK_SUCCESSFULLY_SENDER")),
     DRUNK_SUCCESSFULLY_TARGET (M0odiTroll.getMessages().getConfig().getStringList("MESSAGES.DRUNK_TROLL.DRUNK_SUCCESSFULLY_TARGET")),
@@ -61,7 +62,10 @@ public enum MessageStorage {
     OP_SUCCESSFULLY_SENDER (M0odiTroll.getMessages().getConfig().getStringList("MESSAGES.OP_TROLL.OP_SUCCESSFULLY_SENDER")),
     OP_SUCCESSFULLY_TARGET (M0odiTroll.getMessages().getConfig().getStringList("MESSAGES.OP_TROLL.OP_SUCCESSFULLY_TARGET")),
 
-    SOUND_SUCCESSFULLY_SENDER (M0odiTroll.getMessages().getConfig().getStringList("MESSAGES.SOUND_TROLL.SOUND_SUCCESSFULLY_SENDER"));
+    SOUND_SUCCESSFULLY_SENDER (M0odiTroll.getMessages().getConfig().getStringList("MESSAGES.SOUND_TROLL.SOUND_SUCCESSFULLY_SENDER")),
+
+    BURN_SUCCESSFULLY_SENDER (M0odiTroll.getMessages().getConfig().getStringList("MESSAGES.BURN_TROLL.BURN_SUCCESSFULLY_SENDER")),
+    BURN_SUCCESSFULLY_TARGET (M0odiTroll.getMessages().getConfig().getStringList("MESSAGES.BURN_TROLL.BURN_SUCCESSFULLY_TARGET"));
 
     private final List<String> message;
 

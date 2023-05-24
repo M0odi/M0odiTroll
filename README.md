@@ -23,7 +23,8 @@ QIWI: 4890494762619799
 * /slapTroll - отбросить игрока;
 * /soundTroll - проиграть звуки игроку;
 * /spamTroll - заспамить игроку;
-* /starveTroll - снизить уровень еды игроку.
+* /starveTroll - снизить уровень еды игроку;
+* /burnTroll - поджечь игрока.
 
 ## Преимущества:
 * Настройка практически всех возможностей плагина - кастомизация сообщений, настройка команд;
@@ -45,6 +46,7 @@ QIWI: 4890494762619799
 * M0odiTroll.SOUND
 * M0odiTroll.SPAM
 * M0odiTroll.STARVE 
+* M0odiTroll.BURN 
 
 На кулдавны: 
 * M0odiTroll.COOLDOWN_BYPASS.DROP_TROLL
@@ -58,6 +60,7 @@ QIWI: 4890494762619799
 * M0odiTroll.COOLDOWN_BYPASS.SPAM_TROLL
 * M0odiTroll.COOLDOWN_BYPASS.STARVE_TROLL
 * M0odiTroll.COOLDOWN_BYPASS.SOUND_TROLL
+* M0odiTroll.COOLDOWN_BYPASS.BURN_TROLL
 * M0odiTroll.COOLDOWN_BYPASS.ALL - обход для всех команд
 
 Другое:

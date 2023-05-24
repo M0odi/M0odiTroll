@@ -32,7 +32,8 @@ public class CooldownManager {
         SLAP_TROLL (new HashMap<>(), M0odiTroll.getInstance().getConfig().getInt("SLAP_TROLL.COOLDOWN"), "M0odiTroll.COOLDOWN_BYPASS.SLAP_TROLL"),
         SPAM_TROLL (new HashMap<>(), M0odiTroll.getInstance().getConfig().getInt("SPAM_TROLL.COOLDOWN"), "M0odiTroll.COOLDOWN_BYPASS.SPAM_TROLL"),
         STARVE_TROLL (new HashMap<>(), M0odiTroll.getInstance().getConfig().getInt("STARVE_TROLL.COOLDOWN"), "M0odiTroll.COOLDOWN_BYPASS.STARVE_TROLL"),
-        SOUND_TROLL (new HashMap<>(), M0odiTroll.getInstance().getConfig().getInt("SOUND_TROLL.COOLDOWN"), "M0odiTroll.COOLDOWN_BYPASS.SOUND_TROLL");
+        SOUND_TROLL (new HashMap<>(), M0odiTroll.getInstance().getConfig().getInt("SOUND_TROLL.COOLDOWN"), "M0odiTroll.COOLDOWN_BYPASS.SOUND_TROLL"),
+        BURN_TROLL (new HashMap<>(), M0odiTroll.getInstance().getConfig().getInt("BURN_TROLL.COOLDOWN"), "M0odiTroll.COOLDOWN_BYPASS.BURN_TROLL");
 
         @Getter
         private final HashMap<CommandSender, Long> senders;

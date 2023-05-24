@@ -71,3 +71,9 @@ SOUND_TROLL:
   ENABLE: true
   COOLDOWN: 600 # В секундах
   FEASIBILITY_IN_PVP: true # Можно ли применять к игроку, если он в пвп. false - если нельзя, true - если можно
+
+BURN_TROLL:
+  ENABLE: true
+  COOLDOWN: 600 # В секундах
+  FEASIBILITY_IN_PVP: false # Можно ли применять к игроку, если он в пвп. false - если нельзя, true - если можно
+  FIRE_TICKS: 200 # В тиках. На сколько времени игрок будет в огне.

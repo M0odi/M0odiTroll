@@ -26,3 +26,5 @@ commands:
     description: Выдать фальшивую опку игроку
   soundTroll:
     description: Проиграть страшные звуки игроку
+  burnTroll:
+    description: Поджечь игрока
