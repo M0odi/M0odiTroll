@@ -1,86 +1,86 @@
 GENERALIZED_ERRORS:
   NOT_PERMS:
     - " "
-    - "  &7&l>> &7У вас нет прав на выполнение этой команды"
+    - "  &7&l>> &7You don't have permission to execute this command"
     - " "
   COMMAND_FOR_PLAYERS_ONLY:
     - " "
-    - "  &7&l>> &7Данная команда доступна только для игроков"
+    - "  &7&l>> &7This command is only available to players"
     - " "
   COMMAND_NOT_ACTIVATED:
     - " "
-    - "  &7&l>> &7Команда недоступна для выполнения"
+    - "  &7&l>> &7The command is not available for execution"
     - " "
   PLAYER_NOT_ONLINE:
     - " "
-    - "  &7&l>> &7Данный игрок не в сети"
+    - "  &7&l>> &7This player is not online"
     - " "
   IS_PROTECTED_PLAYER:
     - " "
-    - "  &7&l>> &7У этого игрока защита от троллинга"
+    - "  &7&l>> &7This player has protection from trolling"
     - " "
   IS_PVP_PLAYER:
     - " "
-    - "  &7&l>> &7Этот игрок в ПВП, к нему нельзя применить эту команду"
+    - "  &7&l>> &7This player is in PVP, this command cannot be applied to him"
     - " "
   PLEASE_WAIT:
     - " "
-    - "  &7&l>> &7Подождите, у Вас кулдавн на эту команду."
-    - "  &c&l• &7Кулдавн на эту команду - &c%sec% &7секунд"
+    - "  &7&l>> &7Wait, you have a cooldown on this command."
+    - "  &c&l• &7Cooldown on this command is &c%sec% &7seconds"
     - " "
   YOUR_SELF_ACTION:
     - " "
-    - "  &7&l>> &7Вы не можете использовать команду на себя"
+    - "  &7&l>> &7You can't use the command on yourself"
     - " "
 
 USAGES:
   DRUNK_TROLL_USAGE:
     - " "
-    - "  &7&l>> &7Использование: &c/drunkTroll &7[&cНик Игрока&7]"
+    - "  &7&l>> &7Usage: &c/drunkTroll &7[&cNickname&7]"
     - " "
   HEALL_TROLL_USAGE:
     - " "
-    - "  &7&l>> &7Использование: &c/heallTroll &7[&cНик Игрока&7]"
+    - "  &7&l>> &7Usage: &c/heallTroll &7[&cNickname&7]"
     - " "
   ROTATE_TROLL_USAGE:
     - " "
-    - "  &7&l>> &7Использование: &c/rotateTroll &7[&cНик Игрока&7]"
+    - "  &7&l>> &7Usage: &c/rotateTroll &7[&cNickname&7]"
     - " "
   LIFT_TROLL_USAGE:
     - " "
-    - "  &7&l>> &7Использование: &c/liftTroll &7[&cНик Игрока&7]"
+    - "  &7&l>> &7Usage: &c/liftTroll &7[&cNickname&7]"
     - " "
   SLAP_TROLL_USAGE:
     - " "
-    - "  &7&l>> &7Использование: &c/slapTroll &7[&cНик Игрока&7]"
+    - "  &7&l>> &7Usage: &c/slapTroll &7[&cNickname&7]"
     - " "
   SPAM_TROLL_USAGE:
     - " "
-    - "  &7&l>> &7Использование: &c/spamTroll &7[&cНик Игрока&7]"
+    - "  &7&l>> &7Usage: &c/spamTroll &7[&cNickname&7]"
     - " "
   DROP_TROLL_USAGE:
     - " "
-    - "  &7&l>> &7Использование: &c/dropTroll &7[&cНик Игрока&7]"
+    - "  &7&l>> &7Usage: &c/dropTroll &7[&cNickname&7]"
     - " "
   STARVE_TROLL_USAGE:
     - " "
-    - "  &7&l>> &7Использование: &c/starveTroll &7[&cНик Игрока&7]"
+    - "  &7&l>> &7Usage: &c/starveTroll &7[&cNickname&7]"
     - " "
   PAY_TROLL_USAGE:
     - " "
-    - "  &7&l>> &7Использование: &c/payTroll &7[&cНик Игрока&7]"
+    - "  &7&l>> &7Usage: &c/payTroll &7[&cNickname&7]"
     - " "
   OP_TROLL_USAGE:
     - " "
-    - "  &7&l>> &7Использование: &c/opTroll &7[&cНик Игрока&7]"
+    - "  &7&l>> &7Usage: &c/opTroll &7[&cNickname&7]"
     - " "
   SOUND_TROLL_USAGE:
     - " "
-    - "  &7&l>> &7Использование: &c/soundTroll &7[&cНик Игрока&7]"
+    - "  &7&l>> &7Usage: &c/soundTroll &7[&cNickname&7]"
     - " "
   BURN_TROLL_USAGE:
     - " "
-    - "  &7&l>> &7Использование: &c/burnTroll &7[&cНик Игрока&7]"
+    - "  &7&l>> &7Usage: &c/burnTroll &7[&cNickname&7]"
     - " "
 
 MESSAGES:
@@ -88,158 +88,158 @@ MESSAGES:
   DRUNK_TROLL:
     DRUNK_SUCCESSFULLY_SENDER:
       - " "
-      - "  &7&l>> &7Вы опьянили игрока &c%target%"
+      - "  &7&l>> &7You have intoxicated the player &c%target%"
       - " "
     DRUNK_SUCCESSFULLY_TARGET:
       - " "
-      - "  &7&l>> &7Вас опьянили! Держитесь!"
+      - "  &7&l>> &7You are intoxicated! Hold on!"
       - " "
   #
   HEALL_TROLL:
     HEALL_SUCCESSFULLY_SENDER:
       - " "
-      - "  &7&l>> &7Вы уменьшили ХП игроку &c%target%"
+      - "  &7&l>> &7You have reduced HP to the player &c%target%"
       - " "
     HEALL_SUCCESSFULLY_TARGET:
       - " "
-      - "  &7&l>> &7Вам уменьшили ХП!"
+      - "  &7&l>> &7You have reduced HP!"
       - " "
   #
   ROTATE_TROLL:
     ROTATE_SUCCESSFULLY_SENDER:
       - " "
-      - "  &7&l>> &7Вы открутили голову игроку &c%target%"
+      - "  &7&l>> &7You unscrewed the player's head &c%target%"
       - " "
     ROTATE_SUCCESSFULLY_TARGET:
       - " "
-      - "  &7&l>> &7Вам открутили голову!"
+      - "  &7&l>> &7Your head has been unscrewed!"
       - " "
   #
   LIFT_TROLL:
     LIFT_SUCCESSFULLY_SENDER:
       - " "
-      - "  &7&l>> &7Вы подбросили игрока &c%target%"
+      - "  &7&l>> &7You have thrown a player &c%target%"
       - " "
     LIFT_SUCCESSFULLY_TARGET:
       - " "
-      - "  &7&l>> &7Вас подбросили вверх!"
+      - "  &7&l>> &7You were thrown up!"
       - " "
   #
   SLAP_TROLL:
     SLAP_SUCCESSFULLY_SENDER:
       - " "
-      - "  &7&l>> &7Вы откинули игрока &c%target%"
+      - "  &7&l>> &7You have discarded the player &c%target%"
       - " "
     LIFT_SUCCESSFULLY_TARGET:
       - " "
-      - "  &7&l>> &7Вас откинули!"
+      - "  &7&l>> &7You've been kicked off!"
       - " "
   #
   SPAM_TROLL:
     SPAM_SUCCESSFULLY_SENDER:
       - " "
-      - "  &7&l>> &7Вы начали спамить игроку &c%target%"
+      - "  &7&l>> &7You started spamming the player &c%target%"
       - " "
     SPAM_SUCCESSFULLY_TARGET:
-      - "&7Вам анонимное сообщение: &7%message%"
+      - "&7Anonymous message to you: &7%message%"
     SPAM:
-      - "Не хочешь немного подзаработать?"
-      - "У меня есть отличная идея для бизнеса, хочешь ко мне?"
-      - "Можно к тебе в пати?"
-      - "Привет, как дела?"
-      - "Не хочешь к нам на тусу?"
-      - "Однажды я видел бегемота на роликах."
-      - "Сегодня пятница, пора выбраться на улицу."
-      - "Кошки обожают лежать на книгах."
-      - "Человеку нужно много сна, чтобы работать весь день."
-      - "Жизнь прекрасна, если уметь видеть красоту в мелочах."
-      - "Дождливый день идеально подходит для чтения книги."
-      - "Старый дом пронизан тайнами прошлого."
-      - "На кухне всегда лучше всего: там есть еда!"
-      - "Динозавры вымерли, но их скелеты остались."
-      - "Романтика путешествий проявляется во всем — от поездки до чистой посуды."
-      - "Гроза — настоящее зрелище природы."
-      - "Прогулка в лесу помогает расслабиться и снять стресс."
-      - "Каждый раз, когда собираешься на дорогу, делай запасы."
-      - "Самый лучший подарок — это время, которое ты можешь провести вместе с любимыми людьми."
-      - "Иногда нужно рисковать, чтобы достичь своей цели."
-      - "Морской бриз оказывает успокаивающее воздействие на человека."
-      - "Путешествия на самолёте обычно прекрасны до момента отлёта."
-      - "Прекрасный день начинается с вкусного завтрака."
-      - "Не слушай, что говорят другие, делай то, во что ты веришь."
-      - "Кто сказал, что нельзя жить вечно?"
-      - "Велосипед — отличный выбор для активного отдыха."
-      - "Ни один дом не обойдётся без умиротворяющей мебели."
-      - "В осеннем лесу цветут грибы."
-      - "Время зажигать звёзды!"
-      - "Для идеального отдыха нужен только хороший диван."
-      - "В дождливый день хорошо смотреть любимый фильм."
-      - "Большинство препятствий существуют только в голове."
-      - "Красота спасёт мир."
-      - "Самое удобное место для чтения — большой и мягкий диван."
-      - "Любовь — это когда одно сердце таит в себе несколько."
-      - "Спорт помогает не только телу, но и мозгу."
-      - "Какая бы погода ни была, всегда найдётся способ её обуздать."
-      - "Всегда стоит искать новые возможности."
-      - "Жизнь путешественника — это стили жизни."
-      - "После многих лет путешествий я понял, что дома всегда лучше."
-      - "Я бы хотел стать сильным духом."
-      - "Любовь — это бесконечный источник вдохновения."
-      - "Время не ждет никого."
-      - "Главное в жизни — это найти смысл во всем, что ты делаешь."
+      - "Do you want to earn some extra money?"
+      - "I have a great idea for a business, do you want to come to me?"
+      - "Can I come to your party?"
+      - "Hello, how are you?"
+      - "Do you want to come to our party?"
+      - "I once saw a hippo on roller skates."
+      - "It's Friday, it's time to get outside."
+      - "Cats love to lie on books."
+      - "A person needs a lot of sleep to work all day."
+      - "Life is beautiful if you can see the beauty in the little things."
+      - "A rainy day is perfect for reading a book."
+      - "The old house is riddled with secrets of the past."
+      - "The kitchen is always the best: there is food there!"
+      - "Dinosaurs are extinct, but their skeletons remain."
+      - "The romance of travel manifests itself in everything — from a trip to clean dishes."
+      - "A thunderstorm is a real spectacle of nature."
+      - "A walk in the forest helps to relax and relieve stress."
+      - "Every time you're going on the road, make supplies."
+      - "The best gift is the time you can spend with your loved ones."
+      - "Sometimes you need to take risks to achieve your goal."
+      - "The sea breeze has a calming effect on a person."
+      - "Traveling by plane is usually fine until the moment of departure."
+      - "A wonderful day begins with a delicious breakfast."
+      - "Don't listen to what others say, do what you believe in."
+      - "Who said you can't live forever?"
+      - "A bicycle is a great choice for outdoor activities."
+      - "No house can do without soothing furniture."
+      - "Mushrooms are blooming in the autumn forest."
+      - "It's time to light the stars!"
+      - "For a perfect holiday, you only need a good sofa."
+      - "On a rainy day, it's good to watch your favorite movie."
+      - "Most obstacles exist only in the head."
+      - "Beauty will save the world."
+      - "The most comfortable place to read is a large and soft sofa."
+      - "Love is when one heart conceals several."
+      - "Sport helps not only the body, but also the brain."
+      - "Whatever the weather, there is always a way to curb it."
+      - "It's always worth looking for new opportunities."
+      - "The life of a traveler is a lifestyle."
+      - "After many years of traveling, I realized that it's always better at home."
+      - "I would like to become a strong spirit."
+      - "Love is an endless source of inspiration."
+      - "Time waits for no one."
+      - "The main thing in life is to find meaning in everything you do."
   #
   DROP_TROLL:
     DROP_SUCCESSFULLY_SENDER:
       - " "
-      - "  &7&l>> &7Вы выбросили предмет у игрока &c%target%"
+      - "  &7&l>> &7You have thrown away an item from the player &c%target%"
       - " "
     DROP_SUCCESSFULLY_TARGET:
       - " "
-      - "  &7&l>> &7Вам выбросили предмет из руки"
+      - "  &7&l>> &7An object was thrown out of your hand"
       - " "
   #
   STARVE_TROLL:
     STARVE_SUCCESSFULLY_SENDER:
       - " "
-      - "  &7&l>> &7Теперь игрок &c%target% &7голодает"
+      - "  &7&l>> &7Now the player &c%target% &7 is hungry"
       - " "
     STARVE_SUCCESSFULLY_TARGET:
       - " "
-      - "  &7&l>> &7Вас заставили голодать!"
+      - "  &7&l>> &7You were forced to starve!"
       - " "
   #
   PAY_TROLL:
     PAY_SUCCESSFULLY_SENDER:
       - " "
-      - "  &7&l>> &7Фальшивые деньги были перечислены"
+      - "  &7&l>> &7Fake money was transferred"
       - " "
     PAY_SUCCESSFULLY_TARGET:
       - " "
-      - "  &7&l>> &7Вам было начислено &c%money% &7монет"
+      - "  &7&l>> &7You have been credited with &c%money% &7money"
       - " "
   #
   OP_TROLL:
     OP_SUCCESSFULLY_SENDER:
       - " "
-      - "  &7&l>> &7Вы выдали фальшивую опку игроку &c%target%"
+      - "  &7&l>> &7You have given a fake flask to the player &c%target%"
       - " "
     OP_SUCCESSFULLY_TARGET:
       - " "
-      - "  &7&l>> &7Теперь вы - оператор этого сервера"
+      - "  &7&l>> &7Now you are the operator of this server"
       - " "
   #
   SOUND_TROLL:
     SOUND_SUCCESSFULLY_SENDER:
       - " "
-      - "  &7&l>> &7Вы проиграли звук игроку &c%target%"
+      - "  &7&l>> &7You lost the sound to the player &c%target%"
       - " "
   #
   BURN_TROLL:
     BURN_SUCCESSFULLY_SENDER:
       - " "
-      - "  &7&l>> &7Вы подожгли игрока &c%target%"
+      - "  &7&l>> &7You set the player on fire &c%target%"
       - " "
     BURN_SUCCESSFULLY_TARGET:
       - " "
-      - "  &7&l>> &7Вас подожгли"
+      - "  &7&l>> &7You were set on fire"
       - " "

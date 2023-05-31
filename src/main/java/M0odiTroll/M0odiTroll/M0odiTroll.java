@@ -53,11 +53,11 @@ public final class M0odiTroll extends JavaPlugin {
         Bukkit.getLogger().info("§b██║░╚═╝░██║╚█████╔╝╚█████╔╝██████╔╝██║§c░░░██║░░░██║░░██║╚█████╔╝███████╗███████╗");
         Bukkit.getLogger().info("§b╚═╝░░░░░╚═╝░╚════╝░░╚════╝░╚═════╝░╚═╝§c░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚══════╝╚══════╝");
         Bukkit.getLogger().info("");
-        Bukkit.getLogger().info(" §b| §7Плагин разработан §cДенисом Тимофеевым §7a.k.a §cM0odi");
-        Bukkit.getLogger().info(" §b| §7ВКонтакте: §chttps://vk.com/m0odi");
+        Bukkit.getLogger().info(" §b| §7The plugin was developed by Denis Timofeev §7a.k.a §cM0odi");
+        Bukkit.getLogger().info(" §b| §7VK: §chttps://vk.com/m0odi");
         Bukkit.getLogger().info(" §b| §7Telegram: §chttps://t.me/M0odiX");
         Bukkit.getLogger().info(" §b| ");
-        Bukkit.getLogger().info(" §b| §7Нативная версия: §cPAPER 1.16.5");
+        Bukkit.getLogger().info(" §b| §7Native version: §cPAPER 1.16.5");
         Bukkit.getLogger().info("");
 
     }
