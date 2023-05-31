@@ -63,7 +63,7 @@ On cooldowns:
 * M0odiTroll.COOLDOWN_BYPASS.STARVE_TROLL
 * M0odiTroll.COOLDOWN_BYPASS.SOUND_TROLL
 * M0odiTroll.COOLDOWN_BYPASS.BURN_TROLL
-* M0odiTroll.COOLDOWN_BYPASS.ALL - обход для всех команд
+* M0odiTroll.COOLDOWN_BYPASS.ALL - bypass for all commands
 
 Other:
 * M0odiTroll.PROTECT
